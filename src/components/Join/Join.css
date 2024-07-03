@@ -1,0 +1,131 @@
+/* body{
+    color: white;
+} */
+
+* {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+
+.main-join{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    color: black;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.box{
+    /* border: 2px solid white; */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    margin-top: 30px;
+}
+
+.input{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    flex-grow: 1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input::placeholder{
+    /* color: black; */
+}
+
+.room-id{
+    font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.pin{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.quiz-div{
+    font-size: 50px;
+}
+
+.quiz-join{
+    margin-top: 80px;
+}
+
+.quiz-join h1{
+    font-size: 70px;
+}
+
+.time{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.question-text{
+    font-size: 35px;
+}
+
+.options{
+    border: 1px solid #E1DCF3;
+    cursor: pointer;
+    color: black;
+    background-color: #E1DCF3;
+    font-size: 25px;
+    padding: 5px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.options:hover{
+    background-color: #8a56d7;
+    color: black;
+}
+
+.winner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+    font-family: inherit;
+}
+
+.winner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.winner-div img{
+    height: 100px;
+}
+
+
+  
